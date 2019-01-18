@@ -1,0 +1,7 @@
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121_01/Notes/test.cpp:6:11: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  hello = "This is a string";
+          ^
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121_01/Notes/test.cpp:10:3: error: indirection requires pointer operand ('int' invalid)
+  *hello[0] = '0';
+  ^~~~~~~~~
+1 warning and 1 error generated.
