@@ -1,0 +1,28 @@
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.cpp:1:10: error: 'complexlist.h' file not found with <angled> include; use "quotes" instead
+#include <complexlist.h>
+         ^~~~~~~~~~~~~~~
+         "complexlist.h"
+In file included from /Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.cpp:1:
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.h:2:8: error: macro name missing
+#ifndef
+       ^
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.h:25:3: error: C++ requires a type specifier for all declarations
+  AddToFront(int info); // Add node to front of list
+  ^
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.h:26:3: error: C++ requires a type specifier for all declarations
+  AddToBack(int info);  // Add node to end of list
+  ^
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.h:27:3: error: C++ requires a type specifier for all declarations
+  InsertAt(int index);  // Insert the node after the nth node
+  ^
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.h:30:16: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+  Nodeptr head = NULL;
+               ^
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.cpp:8:14: error: no matching constructor for initialization of 'Node'
+  head = new Node(info, NULL);
+             ^    ~~~~~~~~~~
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.h:13:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 2 were provided
+struct Node{
+       ^
+/Users/garrettwells/Documents/2018-19_UofI/2nd_Semester/CS121/Notes/LinkedList_Code/complexlist.h:13:8: note: candidate constructor (the implicit default constructor) not viable: requires 0 arguments, but 2 were provided
+1 warning and 6 errors generated.
