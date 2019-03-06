@@ -24,9 +24,10 @@ public:
 
   AddToFront(int info); // Add node to front of list
   AddToBack(int info);  // Add node to end of list
-  InsertAt(int index, int info);  // Insert the node after the nth node
+  //InsertAt(int index, int info);  // Insert the node after the nth node
 
 private:
   Nodeptr head = NULL;
+  int size; // Number of elements in the list
 
 };

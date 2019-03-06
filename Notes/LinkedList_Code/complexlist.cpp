@@ -19,6 +19,8 @@ LinkedList::AddToFront(int info){
     head = p;
 
   }
+
+  size++;
 }
 
 LinkedList::AddToBack(int info){
@@ -27,18 +29,16 @@ LinkedList::AddToBack(int info){
 
   if(head != NULL){
     Nodeptr itr = head;
-
     while (itr->next != NULL){
       itr = itr->next;
     }
-
     itr2->next = p;
 
   }else{
     head = p;
-
   }
 
+  size++;
 }
 
 /*
