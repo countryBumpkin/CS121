@@ -54,7 +54,7 @@ _**Pre-order Traversal (root left right):**_
           }
         }
 
-5 17 9 13 41 11
+Output: 5 17 9 13 41 11
 
 _**In-order Traversal (left root right):**_
 1. Process the nodes in the left subtree (recursion)
@@ -72,7 +72,7 @@ _**In-order Traversal (left root right):**_
           }
         }
 
-9 13 17 41 5 11
+Output: 9 13 17 41 5 11
 
 _**Post-order Taversal (left right root):**_
 1. Process the nodes in the left subtree
@@ -90,4 +90,4 @@ _**Post-order Taversal (left right root):**_
             }
           }
 
-13 9 41 17 11 5
+Output: 13 9 41 17 11 5

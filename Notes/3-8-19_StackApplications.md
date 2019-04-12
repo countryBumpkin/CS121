@@ -12,7 +12,7 @@ Here are some common cases where stacks are used to handle simple operations.
 * Simulating recursion
 
 ## Application: Towers of Hanoi ##
-The object ive of the puzzle is to move the entire stack of disks to another rod, subject to the following rules:
+The objective of the puzzle is to move the entire stack of disks to another rod, subject to the following rules:
 
 * Only one disk may be moved at a time.
 * A disk may not be placed on top of a smaller disk

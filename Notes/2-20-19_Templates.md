@@ -21,6 +21,7 @@ How to define a Template using template:
     // To call template square
     cout << square<int>(3) << endl;
     cout << square<double(3.1) << endl;
+    
 
 
 Template Classes:
@@ -38,11 +39,18 @@ Template Classes:
 
       };
 
+      // Usage
+      int main(){
+        String<int> a();
+      }
+
 Templates may cause code bloat since templates expand in place. This could become an error when working on memory limited systems.
 
 Some Details:
 * All code is in header files
-* template<class C> specifies that a template is beng declared and that an argument C of data type type will be used in the declaration
+* template<class C> specifies that a template is being declared and that an argument C of data type type will be used in the declaration
+* Default types can be set for templates like so: template<typename T = int>
+* Multiple types can be used in a template: template<typename T, typename U>
 * C is used like any other type name
 
 _**Note:**_ All macro names are all caps by convention. Also note that macro templates have no type definition that they will return.
