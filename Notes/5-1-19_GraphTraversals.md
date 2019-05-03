@@ -25,12 +25,3 @@ A breadth first search uses a queue to keep track of which vertices might still 
 * BFS is guaranteed to find a path with the fewest steps
 * DFS has a chance of finding a solution before BFS
 * DFS may get lost in an infinite loop while BFS won't
-
-
-pullman baptismal
-2 ppl
-drop hitch in pullman truck
-
-
-setup at 1:30 geoff garrett jared
-normal setup at 2:30 - 3:00
