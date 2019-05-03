@@ -34,13 +34,13 @@ Graph vertices don't have children like tree nodes, so typical tree traversal al
 
 2. _**Depth-First Search**_ uses a stack to keep track of vertices. It can also be implememnted recursively so that it does not explicitly use a stack of vertices.
 
-Traversal algorithms must be careful that they don't enter a repeptitive cycle (eg to neighbor and back again). It is necessary to mark each vertex as it is processed.
+Traversal algorithms must be careful that they don't enter a repetitive cycle (eg to neighbor and back again). It is necessary to mark each vertex as it is processed.
 
 The progress of a traversal after the start vertex depends on the traversal method that is used.
 
 To design and implement search (traversal) algorithms, a programmer must be able to analyze and predict their behavior.
 
-**Questions that need to be answered:**
+**Questions that need to be answered when designing graph algorithms:**
 1. Is the algorithm guaranteed to find a solution?
 
 2. Will the algorithm terminate, or can it get stuck in an infinite loop?

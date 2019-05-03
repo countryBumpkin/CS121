@@ -27,4 +27,9 @@ _**Adjacency Matrix**_
 ## Edge Lists ##
   A series of linked lists showing which nodes the root node is connected to.
 
-A -> B -> C -> D
+    A -> B -> C -> D
+
+## Pair Lists ##
+  I wasn't paying close attention to the lecture but I think edges can also be stored as pairs of points.
+
+    (A,B), (B,C), etc
